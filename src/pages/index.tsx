@@ -16,9 +16,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.container}>
-          <h1 className={styles.title}>
-          Build Recommendation 
-          </h1>
+          <h1 className={styles.title}>Build Recommendation</h1>
           <div className={styles.cardRow}>
             <Link
               className={styles.card}
@@ -27,8 +25,8 @@ export default function Home() {
             >
               <h3 className={styles.cardTitle}>First Steps →</h3>
               <div className={styles.cardText}>
-                Just the basics - Everything you need to know to set up your
-                database and authentication.
+                just the beisic, everithing you need to now about building
+                houses in league of legends
               </div>
             </Link>
             <Link
@@ -78,3 +76,4 @@ function AuthShowcase() {
     </div>
   );
 }
+//ez
